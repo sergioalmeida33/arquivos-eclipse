@@ -1,0 +1,112 @@
+package javaapplication3;
+
+import java.util.Objects;
+
+/**
+ *
+ * @author internet
+ */
+public class JavaApplication3 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        import java.util.Objects;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author internet
+ */
+
+    
+
+/**
+ *
+ * @author internet
+ */
+ 
+private Integer cadastro;
+    
+   private String nome;
+    
+   private String email;
+    
+   private String senha;
+    
+   private String confsenha;
+    
+     public Integer getId() {
+        return cadastro;
+    }
+
+    public void setId(Integer id) {
+        this.cadastro = cadastro;
+    }
+        public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+        public String getemail() {
+        return email;
+    }
+
+    public void setemail(String email) {
+        this.email = email;
+    }
+    public String getsenha() {
+        return senha;
+    }
+
+    public void setsenha(String senha) {
+        this.senha = senha;
+    }
+    public String getconfsenha() {
+        return senha;
+    }
+
+    public void setconfsenha(String confsenha) {
+        this.confsenha = confsenha;
+    }
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 83 * hash + Objects.hashCode(this.nome);
+        hash = 83 * hash + Objects.hashCode(this.email);
+        hash = 83 * hash + Objects.hashCode(this.senha);
+        hash = 83 * hash + Objects.hashCode(this.confsenha);
+        return hash;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+       
+        
+    
+        return true;
+    }
+}
+    
+
+
+    }
+    
+}
